@@ -1,0 +1,29 @@
+# Go build outputs
+*.exe
+*.out
+*.test
+/bin/
+/pkg/
+
+# Go workspace and cache
+.goenv/
+.gocache/
+go.work
+go.work.sum
+
+# Local editor settings
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Local env files
+.env
+
+# Bun and JS tool caches
+.bun/
+
+# Data files created by tools
+*.log
